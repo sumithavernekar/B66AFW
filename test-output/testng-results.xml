@@ -5,16 +5,16 @@
       <![CDATA[Open the browser:chrome]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:https://demo.actitime.com]]>
+      <![CDATA[Enter the URL:https://www.google.com]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
     </line>
     <line>
-      <![CDATA[Set the TimeOut:5]]>
+      <![CDATA[Set the TimeOut:10]]>
     </line>
     <line>
-      <![CDATA[actiTIME - Login]]>
+      <![CDATA[Google]]>
     </line>
     <line>
       <![CDATA[xl:sumitha]]>
@@ -23,12 +23,12 @@
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-20T19:37:41 IST" name="Default suite" finished-at="2023-05-20T19:37:52 IST" duration-ms="11700">
+  <suite started-at="2023-05-22T13:22:58 IST" name="Suite" finished-at="2023-05-22T13:23:05 IST" duration-ms="7167">
     <groups>
     </groups>
-    <test started-at="2023-05-20T19:37:41 IST" name="Default test" finished-at="2023-05-20T19:37:52 IST" duration-ms="11700">
+    <test started-at="2023-05-22T13:22:58 IST" name="Test" finished-at="2023-05-22T13:23:05 IST" duration-ms="7167">
       <class name="Scripts.TestCase1">
-        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Scripts.TestCase1@428640fa]" started-at="2023-05-20T19:37:41 IST" name="openApp" finished-at="2023-05-20T19:37:50 IST" duration-ms="8807" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Scripts.TestCase1@942a29c]" started-at="2023-05-22T13:22:58 IST" name="openApp" finished-at="2023-05-22T13:23:04 IST" duration-ms="5551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,12 +37,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[https://demo.actitime.com]]>
+                <![CDATA[https://www.google.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[5]]>
+                <![CDATA[10]]>
               </value>
             </param>
           </params>
@@ -51,27 +51,27 @@
               <![CDATA[Open the browser:chrome]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:https://demo.actitime.com]]>
+              <![CDATA[Enter the URL:https://www.google.com]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
             </line>
             <line>
-              <![CDATA[Set the TimeOut:5]]>
+              <![CDATA[Set the TimeOut:10]]>
             </line>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testA()[pri:0, instance:Scripts.TestCase1@428640fa]" started-at="2023-05-20T19:37:50 IST" name="testA" finished-at="2023-05-20T19:37:51 IST" duration-ms="1710" status="PASS">
+        <test-method signature="testA()[pri:0, instance:Scripts.TestCase1@942a29c]" started-at="2023-05-22T13:23:04 IST" name="testA" finished-at="2023-05-22T13:23:05 IST" duration-ms="821" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[actiTIME - Login]]>
+              <![CDATA[Google]]>
             </line>
             <line>
               <![CDATA[xl:sumitha]]>
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:Scripts.TestCase1@428640fa]" started-at="2023-05-20T19:37:51 IST" name="closeApp" finished-at="2023-05-20T19:37:52 IST" duration-ms="1139" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:Scripts.TestCase1@942a29c]" started-at="2023-05-22T13:23:05 IST" name="closeApp" finished-at="2023-05-22T13:23:05 IST" duration-ms="756" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
@@ -79,6 +79,6 @@
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- Scripts.TestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
