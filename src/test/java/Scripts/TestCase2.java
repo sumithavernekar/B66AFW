@@ -15,6 +15,7 @@ public class TestCase2 extends BaseTest {
 		
 		Reporter.log("xl:" +v,true);
 		driver.switchTo().activeElement().sendKeys(v);
+		System.out.println("end");
 		
 		
 	}
